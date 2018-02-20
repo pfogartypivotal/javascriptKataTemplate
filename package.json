@@ -1,0 +1,19 @@
+{
+  "name": "kata",
+  "version": "0.0.0",
+  "description": "Project for starting katas",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha \"spec/**/*spec.js\" --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kata"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1"
+  }
+}
